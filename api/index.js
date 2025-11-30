@@ -105,7 +105,7 @@ const isOriginAllowed = (origin) => {
 
 // Configure CORS for production
 app.use(cors({
-  origin: ['http://localhost:3002', 'https://heart-smiles-frontend.vercel.app'],
+  origin: ['http://localhost:3002', 'https://heart-smiles-frontend-deployment.vercel.app/'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
